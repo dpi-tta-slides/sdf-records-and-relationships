@@ -36,184 +36,40 @@ The answer:
 
 ---
 
-<!-- POLL -->
-<!-- Cities and Neighborhoods -->
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/EZ7zocA9OTRhXUXdRFFIO/respond" width="800px" height="600px"></iframe>
+Poll
 
----
+https://pollev.com/ianheraty201
 
-<!-- RESPONSES -->
-<!-- Cities and Neighborhoods -->
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/y65QlOc45oOKvXqdk6HTG?controls=none&short_poll=true" width="800px" height="600px"></iframe>
 
----
+<!-- 
+1. Cities and Neighborhoods
 
+If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to?
 
+What would you call the foreign key column?
 
-<!-- POLL -->
-<!-- If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to? -->
+2. Courses and Students
 
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/7nfYbTGYvPT0GQssWeXeV/respond" width="800px" height="600px"></iframe>
+If we model it as a many-to-many, can you think of a good name for the join table between courses and students?
 
----
+3. Photographers and photos
 
+If we model Photos and Photographers as a one-to-many, which table would you add a foreign key to?
 
-<!-- RESPONSES -->
-<!-- If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to? -->
+4. Bands and Venues
 
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/PTaBsexgqtfDUr8lh9RCH?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+If we model it as a many-to-many, can you think of a good name for the join table between bands and venues?
 
----
+5. Contractors and Clients
 
-<!-- POLL -->
-<!-- If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to? -->
+If we model it as a many-to-many, can you think of a good name for the join table between contractors and clients?
 
-<iframe src="https://pollev-embeds.com/discourses/tv5wQuT17rKCLGRfWzOy0/respond" width="800px" height="600px"></iframe>
+6. States and Senators
 
----
+7. Groups and members
 
-<!-- RESPONSES -->
-<!-- If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to? -->
+If we model it as a many-to-many, can you think of a good name for the join table between groups and members?
 
-<iframe src="https://embed.polleverywhere.com/discourses/Cjb0EcGucIGM5nHkhAsCY?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+8. Can you think of any more relationships that we could model?
 
----
-
-<!-- POLL -->
-<!-- Courses and Students -->
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/gwMHnYTWJSHPeXpcEBjjX/respond" width="800px" height="600px"></iframe>
-
-
----
-
-<!-- RESPONSES -->
-<!-- Courses and Students -->
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/zZlRgj6dbIPzaEIIw513k?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
----
-
-<!-- POLL -->
-<!-- If we model it as a many-to-many, can you think of a good name for the join table between courses and students? -->
-<iframe src="https://pollev-embeds.com/discourses/mUyiEthPTNKB5yxSHLmwV/respond" width="800px" height="600px"></iframe>
-
----
-
-<!-- RESPONSES -->
-<!-- If we model it as a many-to-many, can you think of a good name for the join table between courses and students? -->
-<iframe src="https://embed.polleverywhere.com/discourses/WlWo0xn43QsQ9Mp8fHNjh?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
----
-
-<!-- POLL -->
-<!-- Photographers and photos -->
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/d4b6DU2IkZAttZKgwwtEg/respond" width="800px" height="600px"></iframe>
-
----
-
-<!-- RESPONSES -->
-<!-- Photographers and photos -->
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/9K1OQr0H1Mgr7urHU7Ipp?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
----
-
-<!-- POLL -->
-<!-- If we model Photos and Photographers as a one-to-many, which table would you add a foreign key to? -->
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/tS24tDkkPKORSsqmUcMyX/respond" width="800px" height="600px"></iframe>
-
----
-
-<!-- RESPONSES -->
-<!-- If we model Photos and Photographers as a one-to-many, which table would you add a foreign key to? -->
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/BXLo5Uky5aIzqxSVUzdg1?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
-
----
-
-<!-- POLL -->
-<!-- Bands and Venues -->
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/EHmgM9p6fwIciNtrAowxu/respond" width="800px" height="600px"></iframe>
-
-
----
-
-<!-- RESPONSES -->
-<!-- Bands and Venues -->
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/puR1lLQEAt4PYln3SNGVU?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
----
-
-<!-- POLL -->
-<!-- If we model it as a many-to-many, can you think of a good name for the join table between bands and venues? -->
-<iframe src="https://pollev-embeds.com/discourses/Alw1GqvFoNjWytlKDxI7c/respond" width="800px" height="600px"></iframe>
-
----
-
-<!-- RESPONSES -->
-<!-- If we model it as a many-to-many, can you think of a good name for the join table between bands and venues? -->
-<iframe src="https://embed.polleverywhere.com/discourses/oCuBd1qZX0zDrD61rPL1c?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
----
-
-<!-- POLL -->
-<!-- Contractors and Clients -->
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/SHLVnmYmsUBl14Z0X5Uqk/respond" width="800px" height="600px"></iframe>
-
-
----
-
-<!-- RESPONSES -->
-<!-- Contractors and Clients -->
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/IBzmcUKoTW7fT73gJeBga?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
----
-
-<!-- POLL -->
-<!-- If we model it as a many-to-many, can you think of a good name for the join table between contractors and clients? -->
-<iframe src="https://pollev-embeds.com/discourses/ADKsPr11sonL0DMdBqmTz/respond" width="800px" height="600px"></iframe>
-
-
----
-
-<!-- RESPONSES -->
-<!-- If we model it as a many-to-many, can you think of a good name for the join table between contractors and clients? -->
-<iframe src="https://embed.polleverywhere.com/discourses/umggnLXJVdRhLS4y8Bhef?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
-
----
-
-<!-- POLL -->
-<!-- States and Senators -->
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/rA5r4Z1JgxSDeVxgUoqTz/respond" width="800px" height="600px"></iframe>
-
----
-
-<!-- RESPONSES -->
-<!-- States and Senators -->
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/iDEjVJLN8xaZ3CgNR2X9X?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
----
-
-<!-- POLL -->
-<!-- Groups and members -->
-<iframe src="https://pollev-embeds.com/multiple_choice_polls/ViNZ7TD0ln9YpnUSv0tGh/respond" width="800px" height="600px"></iframe>
-
----
-
-<!-- RESPONSES -->
-<!-- Groups and members -->
-<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/eUHbv8JNRDAzt0M5tEejf?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
----
-
-<!-- POLL -->
-<!-- If we model it as a many-to-many, can you think of a good name for the join table between groups and members? -->
-<iframe src="https://pollev-embeds.com/discourses/aSuBBvRRIY4Fb7UryzIXP/respond" width="800px" height="600px"></iframe>
-
-
----
-
-<!-- RESPONSES -->
-<!-- If we model it as a many-to-many, can you think of a good name for the join table between groups and members? -->
-
-<iframe src="https://embed.polleverywhere.com/discourses/W3r93G1b2XrFydUmDC3ft?controls=none&short_poll=true" width="800px" height="600px"></iframe>
-
+ -->
