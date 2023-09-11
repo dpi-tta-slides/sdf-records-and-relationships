@@ -6,6 +6,7 @@ description: This lesson practices domain modeling by discussing when to use a 
 transition: fade
 paginate: true
 _paginate: false
+html: true
 ---
 
 # Records and Relationships
