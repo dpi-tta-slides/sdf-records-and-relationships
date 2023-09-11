@@ -1,76 +1,218 @@
 ---
 marp: true
-title: Marp CLI example
-description: Hosting Marp slide deck on the web
-theme: uncover
+title: Records and Relationships
+description: This lesson practices domain modeling by discussing when to use a one-to-many or a many-to-many relationship.
+# theme: uncover
 transition: fade
 paginate: true
 _paginate: false
 ---
 
-![bg opacity](./assets/gradient.jpg)
+# Records and Relationships
 
-# <!--fit--> Marp CLI example
+---
+# <!--fit--> What are the associations?
+- Cities and Neighborhoods
+- Courses and Students
+- Photographers and Photos
+- Bands and Venues
+- Contractors and Clients
+- States and Senators
+- Groups and Members
 
-Hosting Marp slide deck on the web
+---
+# One-to-Many or Many-to-Many?
+When you're deciding, ask yourself:
+- Can one x have many y?
+- Can one y have many x?
 
-https://github.com/yhatt/marp-cli-example
+The answer:
+- **It depends on what you're building**
+- Justify it
 
-<style scoped>a { color: #36c; }</style>
-
-<!-- This is presenter note. You can write down notes through HTML comment. -->
+### If **One-to-Many**, which table gets the **foreign key** column?
+### If **Many-to-Many**, what’s a good name for the **join table**?
 
 ---
 
-![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
+<!-- POLL -->
+<!-- Cities and Neighborhoods -->
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/EZ7zocA9OTRhXUXdRFFIO/respond" width="800px" height="600px"></iframe>
 
 ---
 
-<!-- _backgroundColor: "#123" -->
-<!-- _color: "#fff" -->
-
-##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [Vercel](https://vercel.com/)
-
-##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
+<!-- RESPONSES -->
+<!-- Cities and Neighborhoods -->
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/y65QlOc45oOKvXqdk6HTG?controls=none&short_poll=true" width="800px" height="600px"></iframe>
 
 ---
 
-![bg right 60%](https://icongr.am/octicons/mark-github.svg)
 
-## **[GitHub Pages](https://github.com/pages)**
 
-#### Ready to write & host your deck!
+<!-- POLL -->
+<!-- If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to? -->
 
-[![Use this as template h:1.5em](https://img.shields.io/badge/-Use%20this%20as%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
-
----
-
-![bg right 60%](https://icongr.am/simple/netlify.svg?colored)
-
-## **[Netlify](https://www.netlify.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Netlify h:1.5em](./assets/netlify-deploy-button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/7nfYbTGYvPT0GQssWeXeV/respond" width="800px" height="600px"></iframe>
 
 ---
 
-![bg right 60%](https://icongr.am/simple/zeit.svg)
 
-## **[Vercel](https://vercel.com/)**
+<!-- RESPONSES -->
+<!-- If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to? -->
 
-#### Ready to write & host your deck!
-
-[![Deploy to Vercel h:1.5em](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/PTaBsexgqtfDUr8lh9RCH?controls=none&short_poll=true" width="800px" height="600px"></iframe>
 
 ---
 
-### <!--fit--> :ok_hand:
+<!-- POLL -->
+<!-- If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to? -->
+
+<iframe src="https://pollev-embeds.com/discourses/tv5wQuT17rKCLGRfWzOy0/respond" width="800px" height="600px"></iframe>
 
 ---
 
-![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
+<!-- RESPONSES -->
+<!-- If we model Cities and Neighborhoods as a one-to-many, which table would you add a foreign key to? -->
 
-### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
+<iframe src="https://embed.polleverywhere.com/discourses/Cjb0EcGucIGM5nHkhAsCY?controls=none&short_poll=true" width="800px" height="600px"></iframe>
 
-https://github.com/yhatt/marp-cli-example
+---
+
+<!-- POLL -->
+<!-- Courses and Students -->
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/gwMHnYTWJSHPeXpcEBjjX/respond" width="800px" height="600px"></iframe>
+
+
+---
+
+<!-- RESPONSES -->
+<!-- Courses and Students -->
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/zZlRgj6dbIPzaEIIw513k?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+---
+
+<!-- POLL -->
+<!-- If we model it as a many-to-many, can you think of a good name for the join table between courses and students? -->
+<iframe src="https://pollev-embeds.com/discourses/mUyiEthPTNKB5yxSHLmwV/respond" width="800px" height="600px"></iframe>
+
+---
+
+<!-- RESPONSES -->
+<!-- If we model it as a many-to-many, can you think of a good name for the join table between courses and students? -->
+<iframe src="https://embed.polleverywhere.com/discourses/WlWo0xn43QsQ9Mp8fHNjh?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+---
+
+<!-- POLL -->
+<!-- Photographers and photos -->
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/d4b6DU2IkZAttZKgwwtEg/respond" width="800px" height="600px"></iframe>
+
+---
+
+<!-- RESPONSES -->
+<!-- Photographers and photos -->
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/9K1OQr0H1Mgr7urHU7Ipp?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+---
+
+<!-- POLL -->
+<!-- If we model Photos and Photographers as a one-to-many, which table would you add a foreign key to? -->
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/tS24tDkkPKORSsqmUcMyX/respond" width="800px" height="600px"></iframe>
+
+---
+
+<!-- RESPONSES -->
+<!-- If we model Photos and Photographers as a one-to-many, which table would you add a foreign key to? -->
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/BXLo5Uky5aIzqxSVUzdg1?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+
+---
+
+<!-- POLL -->
+<!-- Bands and Venues -->
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/EHmgM9p6fwIciNtrAowxu/respond" width="800px" height="600px"></iframe>
+
+
+---
+
+<!-- RESPONSES -->
+<!-- Bands and Venues -->
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/puR1lLQEAt4PYln3SNGVU?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+---
+
+<!-- POLL -->
+<!-- If we model it as a many-to-many, can you think of a good name for the join table between bands and venues? -->
+<iframe src="https://pollev-embeds.com/discourses/Alw1GqvFoNjWytlKDxI7c/respond" width="800px" height="600px"></iframe>
+
+---
+
+<!-- RESPONSES -->
+<!-- If we model it as a many-to-many, can you think of a good name for the join table between bands and venues? -->
+<iframe src="https://embed.polleverywhere.com/discourses/oCuBd1qZX0zDrD61rPL1c?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+---
+
+<!-- POLL -->
+<!-- Contractors and Clients -->
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/SHLVnmYmsUBl14Z0X5Uqk/respond" width="800px" height="600px"></iframe>
+
+
+---
+
+<!-- RESPONSES -->
+<!-- Contractors and Clients -->
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/IBzmcUKoTW7fT73gJeBga?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+---
+
+<!-- POLL -->
+<!-- If we model it as a many-to-many, can you think of a good name for the join table between contractors and clients? -->
+<iframe src="https://pollev-embeds.com/discourses/ADKsPr11sonL0DMdBqmTz/respond" width="800px" height="600px"></iframe>
+
+
+---
+
+<!-- RESPONSES -->
+<!-- If we model it as a many-to-many, can you think of a good name for the join table between contractors and clients? -->
+<iframe src="https://embed.polleverywhere.com/discourses/umggnLXJVdRhLS4y8Bhef?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+
+---
+
+<!-- POLL -->
+<!-- States and Senators -->
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/rA5r4Z1JgxSDeVxgUoqTz/respond" width="800px" height="600px"></iframe>
+
+---
+
+<!-- RESPONSES -->
+<!-- States and Senators -->
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/iDEjVJLN8xaZ3CgNR2X9X?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+---
+
+<!-- POLL -->
+<!-- Groups and members -->
+<iframe src="https://pollev-embeds.com/multiple_choice_polls/ViNZ7TD0ln9YpnUSv0tGh/respond" width="800px" height="600px"></iframe>
+
+---
+
+<!-- RESPONSES -->
+<!-- Groups and members -->
+<iframe src="https://embed.polleverywhere.com/multiple_choice_polls/eUHbv8JNRDAzt0M5tEejf?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
+---
+
+<!-- POLL -->
+<!-- If we model it as a many-to-many, can you think of a good name for the join table between groups and members? -->
+<iframe src="https://pollev-embeds.com/discourses/aSuBBvRRIY4Fb7UryzIXP/respond" width="800px" height="600px"></iframe>
+
+
+---
+
+<!-- RESPONSES -->
+<!-- If we model it as a many-to-many, can you think of a good name for the join table between groups and members? -->
+
+<iframe src="https://embed.polleverywhere.com/discourses/W3r93G1b2XrFydUmDC3ft?controls=none&short_poll=true" width="800px" height="600px"></iframe>
+
