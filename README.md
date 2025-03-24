@@ -1,7 +1,7 @@
 # Records and Relationships
 This lesson practices domain modeling by discussing when to use a one-to-many or a many-to-many relationship.
 
-[slides](https://dpi-we.github.io/sdf-records-and-relationships)
+[slides](https://dpi-we.github.io/slides-sdf-records-and-relationships)
 
 ## Topics
 - domain modeling
